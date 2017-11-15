@@ -97,6 +97,7 @@ hr{
 h3 {
 	color: #d4d8d8;
 	letter-spacing: 3px;
+	text-transform: capitalize;
 }
 
 h4, h5 {
