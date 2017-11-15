@@ -80,6 +80,7 @@ h1 {
 .project p {
 	font-weight: lighter;
 	letter-spacing: 1px;
+	font-size: 90%;
 }
 
 a {
@@ -97,11 +98,15 @@ h3 {
 	color: #d4d8d8;
 	letter-spacing: 3px;
 	text-transform: capitalize;
+	font-size: 100%;
 }
-
+h1 {
+	font-size: 180%;
+}
 h4, h5 {
 	font-weight: lighter;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-top: 0;
+	font-size: 100%;
 }
