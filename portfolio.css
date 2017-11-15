@@ -1,0 +1,107 @@
+body {
+	background: #304352;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+p {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+#main {
+	float: right;
+	box-shadow: none;
+	border: 2px solid #d7d2cc;
+}
+
+.row .thumbnail {
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+    background: none;
+}
+
+#logo {
+	float: left;
+	width: 4em;
+	position: relative;
+	top: 25px;
+	border-radius: 20%;
+
+}
+
+.container {
+	width: 70%;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Spectral SC', serif;
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+.center {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+.profile {
+	font-family: 'Economica', sans-serif;
+	text-align: center;
+	color: #d4d8d8;
+}
+
+.profile p {
+	font-size: 120%;
+	/*margin-bottom: 10px;*/
+	margin: 0 10px 10px 0;
+	/*margin: 0 auto;*/
+	letter-spacing: 1px;
+}
+
+.name {
+	float: right;
+	text-align: right;
+	color: #d4d8d8;
+}
+
+.name p {
+	color: #fff;
+}
+
+.project{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.project p {
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+a {
+	font-size: 80%;
+	color: #3cadc1;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h3 {
+	color: #d4d8d8;
+	letter-spacing: 3px;
+}
+
+h4, h5 {
+	font-weight: lighter;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
