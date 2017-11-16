@@ -10,7 +10,7 @@ p {
 	margin-bottom: 0;
 }
 
-#main {
+.main {
 	float: right;
 	box-shadow: none;
 	border: 2px solid #d7d2cc;
@@ -23,7 +23,7 @@ p {
     background: none;
 }
 
-#logo {
+.logo {
 	float: left;
 	width: 4em;
 	position: relative;
@@ -35,13 +35,6 @@ p {
 	width: 70%;
 }
 
-h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-family: 'Spectral SC', serif;
-	font-size: 2em;
-	margin-bottom: 0;
-}
-
 .center {
 	text-align: center;
 	font-size: 1.5em;
@@ -49,7 +42,7 @@ h1 {
 }
 
 .profile {
-	font-family: 'Economica', sans-serif;
+	font-family: "Economica", sans-serif;
 	text-align: center;
 	color: #d4d8d8;
 }
@@ -95,7 +88,10 @@ hr{
 }
 
 h1 {
-	font-size: 180%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Spectral SC", serif;
+	font-size: 1.8em;
+	margin-bottom: 0;
 }
 
 h3 {
